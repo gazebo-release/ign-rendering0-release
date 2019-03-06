@@ -89,44 +89,44 @@ Description: Ignition rendering0 classes and functions for robot apps - Developm
   .
   Ogre1 component shared library
 
-Package: libignition-rendering0-ogre2-dev
-Architecture: any
-Section: libdevel
-Depends: libignition-cmake2-dev,
-         libignition-common2-dev,
-         libignition-math5-dev,
-         libogre-2.1-dev,
-         libignition-rendering0-core-dev,
-         libignition-rendering0-ogre2 (= ${binary:Version}),
-         ${misc:Depends}
-Breaks: libignition-rendering0-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
-Replaces: libignition-rendering0-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
-Multi-Arch: same
-Description: Ignition rendering0 classes and functions for robot apps - Development files
-  Ignition rendering0 is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Ogre2 component development files
-
-Package: libignition-rendering0-ogre2
-Architecture: any
-Section: libdevel
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: libignition-rendering0-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
-Replaces: libignition-rendering0-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
-Multi-Arch: same
-Description: Ignition rendering0 classes and functions for robot apps - Development files
-  Ignition rendering0 is a component in the ignition framework, a set of libraries
-  designed to rapidly develop robot applications.
-  .
-  Ogre2 component shared library
+# Package: libignition-rendering0-ogre2-dev
+# Architecture: any
+# Section: libdevel
+# Depends: libignition-cmake2-dev,
+#          libignition-common2-dev,
+#          libignition-math5-dev,
+#          libogre-2.1-dev,
+#          libignition-rendering0-core-dev,
+#          libignition-rendering0-ogre2 (= ${binary:Version}),
+#          ${misc:Depends}
+# Breaks: libignition-rendering0-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
+# Replaces: libignition-rendering0-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
+# Multi-Arch: same
+# Description: Ignition rendering0 classes and functions for robot apps - Development files
+#   Ignition rendering0 is a component in the ignition framework, a set of libraries
+#   designed to rapidly develop robot applications.
+#   .
+#   Ogre2 component development files
+# 
+# Package: libignition-rendering0-ogre2
+# Architecture: any
+# Section: libdevel
+# Depends: ${shlibs:Depends}, ${misc:Depends}
+# Breaks: libignition-rendering0-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
+# Replaces: libignition-rendering0-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
+# Multi-Arch: same
+# Description: Ignition rendering0 classes and functions for robot apps - Development files
+#   Ignition rendering0 is a component in the ignition framework, a set of libraries
+#   designed to rapidly develop robot applications.
+#   .
+#   Ogre2 component shared library
 
 Package: libignition-rendering0-dev
 Architecture: any
 Section: libdevel
 Depends: libignition-rendering0-core-dev,
          libignition-rendering0-ogre1-dev,
-         libignition-rendering0-ogre2-dev,
+#         libignition-rendering0-ogre2-dev,
          libignition-rendering0 (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
