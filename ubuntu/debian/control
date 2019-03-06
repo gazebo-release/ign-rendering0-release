@@ -25,8 +25,6 @@ Architecture: any
 Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: libignition-rendering0-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
-Replaces: libignition-rendering0-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
 Multi-Arch: same
 Description: Ignition rendering0 classes and functions for robot apps - Shared library
   Ignition rendering0 is a component in the ignition framework, a set of libraries
@@ -48,8 +46,6 @@ Depends: libignition-cmake1-dev,
          libignition-math5-dev,
          libignition-rendering0 (= ${binary:Version}),
          ${misc:Depends}
-Breaks: libignition-rendering0-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
-Replaces: libignition-rendering0-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
 Multi-Arch: same
 Description: Ignition rendering0 classes and functions - Core development files
   Ignition rendering0 is a component in the ignition framework, a set of libraries
@@ -67,8 +63,6 @@ Depends: libignition-cmake2-dev,
          libignition-rendering0-core-dev,
          libignition-rendering0-ogre1 (= ${binary:Version}),
          ${misc:Depends}
-Breaks: libignition-rendering0-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
-Replaces: libignition-rendering0-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
 Multi-Arch: same
 Description: Ignition rendering0 classes and functions for robot apps - Development files
   Ignition rendering0 is a component in the ignition framework, a set of libraries
@@ -80,8 +74,6 @@ Package: libignition-rendering0-ogre1
 Architecture: any
 Section: libdevel
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Breaks: libignition-rendering0-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
-Replaces: libignition-rendering0-dev (<< 1.0.0~pre7+hg20190226r1cfc9cf24619-1)
 Multi-Arch: same
 Description: Ignition rendering0 classes and functions for robot apps - Development files
   Ignition rendering0 is a component in the ignition framework, a set of libraries
